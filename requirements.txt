@@ -1,0 +1,14 @@
+# Web server framework
+flask>=2.0.0
+
+# Core audio and numerical processing
+numpy>=1.21.0
+librosa>=0.9.0
+
+# Optional library for alternative beat tracking
+# Note: Requires Homebrew installation on macOS ('brew install aubio')
+aubio>=0.4.9
+
+# Optional libraries for MIDI file analysis and advanced chord detection
+miditoolkit>=1.0.0
+pychord>=1.1.0
